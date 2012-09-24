@@ -157,7 +157,7 @@ class Wisdom
             ));
         }
 
-        $loader->setValues($this->values);
+        $loader->setValues($values);
 
         $data = $loader->load($found);
 
